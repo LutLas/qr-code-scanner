@@ -42,7 +42,7 @@ export default class LutLasWasHere extends React.Component {
         />
 
         {scanned && (
-          <Button title={'Scan Again'} onPress={() => this.setState({ scanned: false })} />
+          <Button color = "purple" width="50px" textAlign="center" title={'Scan Again'} onPress={() => this.setState({ scanned: false })} />
         )}
       </View>
     );
@@ -50,6 +50,8 @@ export default class LutLasWasHere extends React.Component {
 
   handleBarCodeScanned = ({ type, data }) => {
     this.setState({ scanned: true });
-    alert(`Bar code : ${type} The data is: ${data} has been scanned!`);
+    alert(`Bar Code Number: ${type}\n\nExtracted Information:\n${data}\n\nScan Was Successful!`);
   };
 }
+
+

@@ -1,6 +1,7 @@
 {
   "expo": {
     "name": "qr-code-scanner",
+    "author":"LutLas",
     "description": "React-native QR code scanner app",
     "slug": "snack-6050e215-779e-414e-a613-877a66cd8335",
     "privacy": "unlisted",
