@@ -12,5 +12,11 @@
     "react-native-camera-kit": "^8.0.1",
     "expo-barcode-scanner": "^7.0.0"
   },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "engines": {
+    "node": "15.10.3"
+},
   "repository": "https://github.com/LutLas/qr-code-scanner"
 }
